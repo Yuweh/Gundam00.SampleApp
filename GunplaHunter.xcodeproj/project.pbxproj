@@ -13,6 +13,12 @@
 		90276D5A1EE596FB00A619F4 /* GunplaHunter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90276D581EE596FB00A619F4 /* GunplaHunter.xcdatamodeld */; };
 		90276D5C1EE596FB00A619F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90276D5B1EE596FB00A619F4 /* Assets.xcassets */; };
 		90276D5F1EE596FB00A619F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90276D5D1EE596FB00A619F4 /* LaunchScreen.storyboard */; };
+		90FF92171F1524F6008D3633 /* Dynames.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90FF92161F1524F6008D3633 /* Dynames.jpg */; };
+		90FF92191F1524FE008D3633 /* Exia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90FF92181F1524FE008D3633 /* Exia.jpg */; };
+		90FF921B1F152506008D3633 /* Kyrios.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90FF921A1F152506008D3633 /* Kyrios.jpg */; };
+		90FF921D1F15250E008D3633 /* Virtue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90FF921C1F15250E008D3633 /* Virtue.jpg */; };
+		90FF921F1F152781008D3633 /* GTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FF921E1F152781008D3633 /* GTableViewController.swift */; };
+		90FF92211F15297F008D3633 /* GundamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FF92201F15297F008D3633 /* GundamTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		90276D5B1EE596FB00A619F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90276D5E1EE596FB00A619F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90276D601EE596FB00A619F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90FF92161F1524F6008D3633 /* Dynames.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dynames.jpg; sourceTree = "<group>"; };
+		90FF92181F1524FE008D3633 /* Exia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Exia.jpg; sourceTree = "<group>"; };
+		90FF921A1F152506008D3633 /* Kyrios.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kyrios.jpg; sourceTree = "<group>"; };
+		90FF921C1F15250E008D3633 /* Virtue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Virtue.jpg; sourceTree = "<group>"; };
+		90FF921E1F152781008D3633 /* GTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTableViewController.swift; sourceTree = "<group>"; };
+		90FF92201F15297F008D3633 /* GundamTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GundamTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +69,15 @@
 			isa = PBXGroup;
 			children = (
 				90276D511EE596FB00A619F4 /* AppDelegate.swift */,
+				90FF92201F15297F008D3633 /* GundamTableViewCell.swift */,
+				90FF921E1F152781008D3633 /* GTableViewController.swift */,
 				90276D531EE596FB00A619F4 /* ViewController.swift */,
 				90276D551EE596FB00A619F4 /* Main.storyboard */,
 				90276D5B1EE596FB00A619F4 /* Assets.xcassets */,
+				90FF92161F1524F6008D3633 /* Dynames.jpg */,
+				90FF92181F1524FE008D3633 /* Exia.jpg */,
+				90FF921A1F152506008D3633 /* Kyrios.jpg */,
+				90FF921C1F15250E008D3633 /* Virtue.jpg */,
 				90276D5D1EE596FB00A619F4 /* LaunchScreen.storyboard */,
 				90276D601EE596FB00A619F4 /* Info.plist */,
 				90276D581EE596FB00A619F4 /* GunplaHunter.xcdatamodeld */,
@@ -128,7 +146,11 @@
 			files = (
 				90276D5F1EE596FB00A619F4 /* LaunchScreen.storyboard in Resources */,
 				90276D5C1EE596FB00A619F4 /* Assets.xcassets in Resources */,
+				90FF92191F1524FE008D3633 /* Exia.jpg in Resources */,
+				90FF921B1F152506008D3633 /* Kyrios.jpg in Resources */,
+				90FF92171F1524F6008D3633 /* Dynames.jpg in Resources */,
 				90276D571EE596FB00A619F4 /* Main.storyboard in Resources */,
+				90FF921D1F15250E008D3633 /* Virtue.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +162,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				90276D541EE596FB00A619F4 /* ViewController.swift in Sources */,
+				90FF92211F15297F008D3633 /* GundamTableViewCell.swift in Sources */,
 				90276D5A1EE596FB00A619F4 /* GunplaHunter.xcdatamodeld in Sources */,
 				90276D521EE596FB00A619F4 /* AppDelegate.swift in Sources */,
+				90FF921F1F152781008D3633 /* GTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +327,7 @@
 				90276D651EE596FB00A619F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
