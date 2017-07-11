@@ -10,6 +10,11 @@ import UIKit
 
 class GundamTableViewCell: UITableViewCell {
 
+    
+    @IBOutlet weak var myImage: UIImageView!
+    @IBOutlet weak var myLabel: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
